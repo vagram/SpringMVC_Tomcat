@@ -29,21 +29,6 @@
         Priority: <form:select path="priority">
         <form:options items="${thingsToDo.priorities}"/>
     </form:select>
-        <br>
-        <br>
-        Please choose month(s):
-        <br>
-        Jan <form:checkbox path="months" value="January"/><br>
-        Feb <form:checkbox path="months" value="February"/><br>
-        Mar <form:checkbox path="months" value="March"/><br>
-        Apr <form:checkbox path="months" value="Aprill"/><br>
-        May <form:checkbox path="months" value="May"/><br>
-        Jun <form:checkbox path="months" value="June"/><br>
-        Jul <form:checkbox path="months" value="July"/><br>
-        Aug <form:checkbox path="months" value="August"/><br>
-
-
-
         <br><br>
         <input type="submit" value="Send">
     </form:form>

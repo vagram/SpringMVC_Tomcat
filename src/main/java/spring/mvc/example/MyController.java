@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import spring.mvc.example.dto.ThingsToDo;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
 @Controller

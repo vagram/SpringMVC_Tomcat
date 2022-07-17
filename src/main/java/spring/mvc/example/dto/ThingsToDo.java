@@ -15,7 +15,6 @@ public class ThingsToDo {
     private String priority;
     private Map<String, String> priorities;
     private Map<String, String> nameToDoes;
-    private String[] months;
 
     public ThingsToDo() {
         addPriorities();

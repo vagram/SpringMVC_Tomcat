@@ -23,15 +23,5 @@
     <h4>${thingsToDo.priority}</h4>
     <br>
     <br>
-    <h3>Выбранный месяц:</h3>
-    <h4>
-        <ul>
-            <c:forEach var="month" items="${thingsToDo.months}">
-                <li>${month}</li>
-            </c:forEach>
-        </ul>
-    </h4>
-
-
 </body>
 </html>
